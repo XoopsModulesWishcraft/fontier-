@@ -8,11 +8,6 @@
 @import url(https://fonts.ringwould.com.au/v1/random/any/Api-Main/css.api);
 @import url(https://fonts.ringwould.com.au/v1/random/courier-terminal-shell-system/Api-Code-Examples/css.api);
 
-body {
-	font-family: "Api Content", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:85%em;
-	text-align:justify;
-}
 .main {
 	font-family: "Api Main" !important;
 	border:3px solid #000000;
