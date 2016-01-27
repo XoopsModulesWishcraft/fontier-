@@ -257,6 +257,7 @@ CREATE TABLE `fontier_uploads` (
   `rejected` int(16) NOT NULL DEFAULT '0',
   `responses` int(16) NOT NULL DEFAULT '0',
   `uid` int(13) NOT NULL DEFAULT '0',
+  `contacted` int(12) NOT NULL DEFAULT '0',
   `created` int(12) NOT NULL DEFAULT '0',
   `last` int(12) NOT NULL DEFAULT '0',
   `finished` int(12) NOT NULL DEFAULT '0',
