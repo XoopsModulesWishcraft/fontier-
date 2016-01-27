@@ -122,6 +122,19 @@ CREATE TABLE `fontier_fonts_callbacks` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
+CREATE TABLE `fontier_fonts_downloads` (
+  `id` mediumint(18) ZEROFILL NOT NULL AUTO_INCREMENT ,
+  `font-id` varchar(32) NOT NULL DEFAULT '',
+  `type` varchar(20) NOT NULL DEFAULT '',
+  `file` varchar(200) NOT NULL DEFAULT '',
+  `url` varchar(300) NOT NULL DEFAULT '',
+  `created` int(12) NOT NULL DEFAULT '0',
+  `last` int(12) NOT NULL DEFAULT '0',
+  `hits` mediumint(32) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
 CREATE TABLE `fontier_fonts_files` (
   `id` mediumint(24) NOT NULL AUTO_INCREMENT,
   `font_id` varchar(32) NOT NULL DEFAULT '',
